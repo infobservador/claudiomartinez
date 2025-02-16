@@ -34,7 +34,9 @@
             color: #b3b3b3;
         }
         .link {
-            display: block;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             background-color: #4caf50;
             color: white;
             text-decoration: none;
@@ -44,8 +46,21 @@
             font-size: 18px;
             transition: background-color 0.3s;
         }
+        .link img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
         .link:hover {
             background-color: #45a049;
+        }
+        .email-link {
+            color: #4caf50;
+            font-size: 18px;
+            text-decoration: none;
+        }
+        .email-link:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -55,15 +70,32 @@
         <h1>Claudio Martínez - Astroturismo</h1>
         <p>Encuentra todos mis enlaces aquí:</p>
 
-        <a href="https://www.youtube.com/@ClaudioMartinez-astroturismo" class="link">?? Videos de Astronomía y Astroturismo (YouTube)</a>
-        <a href="https://www.facebook.com/astroturismocomar" class="link">?? Noticias de Astronomía y Astroturismo (Facebook)</a>
-        <a href="https://twitter.com/Infobservador" class="link">?? Noticias de Astronomía y Astroturismo (Twitter)</a>
-        <a href="https://www.instagram.com/astrorurismocomar" class="link">?? Noticias de Astronomía y Astroturismo (Instagram)</a>
-        <a href="http://www.infobservador.blogspot.com" class="link">?? Artículos completos sobre Astronomía (Blog)</a>
-        <a href="http://www.astroturismo.com.ar" class="link">?? Cursos de Astroturismo y Astronomía (Sitio Web)</a>
-        <a href="https://infobservador.blogspot.com/2024/07/los-libros-astronomia-binocular-y.html" class="link">?? Comprar mis libros</a>
+        <a href="https://www.youtube.com/@ClaudioMartinez-astroturismo" class="link">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube">Videos de Astronomía y Astroturismo
+        </a>
+        <a href="https://www.facebook.com/astroturismocomar" class="link">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">Noticias de Astronomía y Astroturismo
+        </a>
+        <a href="https://twitter.com/Infobservador" class="link">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Twitter_Logo_as_of_2021.svg" alt="Twitter">Noticias de Astronomía y Astroturismo
+        </a>
+        <a href="https://www.instagram.com/astrorurismocomar" class="link">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">Noticias de Astronomía y Astroturismo
+        </a>
+        <a href="https://www.tiktok.com/@astroturismo" class="link">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/TikTok_logo.svg" alt="TikTok">Astroturismo en TikTok
+        </a>
+        <a href="https://infobservador.blogspot.com" class="link">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Blogger_logo.svg" alt="Blog">Artículos completos sobre Astronomía
+        </a>
+        <a href="https://www.astroturismo.com.ar" class="link">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/Globe_icon.svg" alt="Sitio Web">Cursos de Astroturismo y Astronomía
+        </a>
+        <a href="https://infobservador.blogspot.com/2024/07/los-libros-astronomia-binocular-y.html" class="link">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Open_book_nae_02.svg" alt="Libros">Comprar mis libros
+        </a>
 
-        <p>?? <a href="mailto:infoastroturismo.com.ar" style="color: #4caf50;">Contáctame por email</a></p>
+        <p>💌 <a href="mailto:infoastroturismo.com.ar" class="email-link">Contáctame por email</a></p>
     </div>
 </body>
 </html>
