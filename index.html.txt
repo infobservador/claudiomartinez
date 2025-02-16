@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linktree Personalizado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .profile-image {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+            border: 3px solid #4caf50;
+        }
+        h1 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        p {
+            font-size: 16px;
+            color: #b3b3b3;
+        }
+        .link {
+            display: block;
+            background-color: #4caf50;
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+        .link:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://via.placeholder.com/150" alt="Tu foto de perfil" class="profile-image">
+        <h1>Claudio Martínez - Astroturismo</h1>
+        <p>Encuentra todos mis enlaces aquí:</p>
+
+        <a href="https://www.youtube.com/@ClaudioMartinez-astroturismo" class="link">?? Videos de Astronomía y Astroturismo (YouTube)</a>
+        <a href="https://www.facebook.com/astroturismocomar" class="link">?? Noticias de Astronomía y Astroturismo (Facebook)</a>
+        <a href="https://twitter.com/Infobservador" class="link">?? Noticias de Astronomía y Astroturismo (Twitter)</a>
+        <a href="https://www.instagram.com/astrorurismocomar" class="link">?? Noticias de Astronomía y Astroturismo (Instagram)</a>
+        <a href="http://www.infobservador.blogspot.com" class="link">?? Artículos completos sobre Astronomía (Blog)</a>
+        <a href="http://www.astroturismo.com.ar" class="link">?? Cursos de Astroturismo y Astronomía (Sitio Web)</a>
+        <a href="https://infobservador.blogspot.com/2024/07/los-libros-astronomia-binocular-y.html" class="link">?? Comprar mis libros</a>
+
+        <p>?? <a href="mailto:infoastroturismo.com.ar" style="color: #4caf50;">Contáctame por email</a></p>
+    </div>
+</body>
+</html>
