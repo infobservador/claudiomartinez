@@ -52,18 +52,18 @@
 <body>
     <div class="container">
         <img src="https://via.placeholder.com/150" alt="Tu foto de perfil" class="profile-image">
-        <h1>Claudio MartÌnez - Astroturismo</h1>
-        <p>Encuentra todos mis enlaces aquÌ:</p>
+        <h1>Claudio Mart√≠nez - Astroturismo</h1>
+        <p>Encuentra todos mis enlaces aqu√≠:</p>
 
-        <a href="https://www.youtube.com/@ClaudioMartinez-astroturismo" class="link">?? Videos de AstronomÌa y Astroturismo (YouTube)</a>
-        <a href="https://www.facebook.com/astroturismocomar" class="link">?? Noticias de AstronomÌa y Astroturismo (Facebook)</a>
-        <a href="https://twitter.com/Infobservador" class="link">?? Noticias de AstronomÌa y Astroturismo (Twitter)</a>
-        <a href="https://www.instagram.com/astrorurismocomar" class="link">?? Noticias de AstronomÌa y Astroturismo (Instagram)</a>
-        <a href="http://www.infobservador.blogspot.com" class="link">?? ArtÌculos completos sobre AstronomÌa (Blog)</a>
-        <a href="http://www.astroturismo.com.ar" class="link">?? Cursos de Astroturismo y AstronomÌa (Sitio Web)</a>
+        <a href="https://www.youtube.com/@ClaudioMartinez-astroturismo" class="link">?? Videos de Astronom√≠a y Astroturismo (YouTube)</a>
+        <a href="https://www.facebook.com/astroturismocomar" class="link">?? Noticias de Astronom√≠a y Astroturismo (Facebook)</a>
+        <a href="https://twitter.com/Infobservador" class="link">?? Noticias de Astronom√≠a y Astroturismo (Twitter)</a>
+        <a href="https://www.instagram.com/astrorurismocomar" class="link">?? Noticias de Astronom√≠a y Astroturismo (Instagram)</a>
+        <a href="http://www.infobservador.blogspot.com" class="link">?? Art√≠culos completos sobre Astronom√≠a (Blog)</a>
+        <a href="http://www.astroturismo.com.ar" class="link">?? Cursos de Astroturismo y Astronom√≠a (Sitio Web)</a>
         <a href="https://infobservador.blogspot.com/2024/07/los-libros-astronomia-binocular-y.html" class="link">?? Comprar mis libros</a>
 
-        <p>?? <a href="mailto:infoastroturismo.com.ar" style="color: #4caf50;">Cont·ctame por email</a></p>
+        <p>?? <a href="mailto:infoastroturismo.com.ar" style="color: #4caf50;">Cont√°ctame por email</a></p>
     </div>
 </body>
 </html>
