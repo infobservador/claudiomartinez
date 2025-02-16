@@ -1,36 +1,36 @@
-~<!DOCTYPE html>
-~<html lang="es">
-~<head>
-~    <meta charset="UTF-8">
-~    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-~    <title>Linktree Personalizado</title>
-~    <style>
-~        body {
-~            font-family: Arial, sans-serif;
-~            background-color: #1a1a1a;
-~            color: #ffffff;
-~            text-align: center;
-~            padding: 0;
-~            margin: 0;
-~        }
-~        .container {
-~            max-width: 500px;
-~            margin: 0 auto;
-~            padding: 20px;
-~        }
-~        .profile-image {
-~            border-radius: 50%;
-~            width: 150px;
-~            height: 150px;
-~            margin-bottom: 20px;
-~            border: 3px solid #4caf50;
-~        }
-~        h1 {
-~            font-size: 24px;
-~            margin: 10px 0;
-~        }
-~        p {
-~            font-size: 16px;
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linktree Personalizado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .profile-image {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+            border: 3px solid #4caf50;
+        }
+        h1 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        p {
+            font-size: 16px;
             color: #b3b3b3;
         }
         .link {
@@ -40,7 +40,9 @@
             background-color: #4caf50;
             color: white;
             text-decoration: none;
-@@ -44,9 +46,22 @@
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
             font-size: 18px;
             transition: background-color 0.3s;
         }
@@ -63,10 +65,13 @@
     </style>
 </head>
 <body>
-@@ -55,15 +70,32 @@
+    <div class="container">
+        <!-- Asegúrate de que la URL de tu imagen sea accesible -->
+        <img src="https://via.placeholder.com/150" alt="Tu foto de perfil" class="profile-image">
         <h1>Claudio Martínez - Astroturismo</h1>
         <p>Encuentra todos mis enlaces aquí:</p>
 
+        <!-- Enlaces a las redes sociales -->
         <a href="https://www.youtube.com/@ClaudioMartinez-astroturismo" class="link">
             <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube">Videos de Astronomía y Astroturismo
         </a>
@@ -82,10 +87,10 @@
         <a href="https://www.tiktok.com/@astroturismo" class="link">
             <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/TikTok_logo.svg" alt="TikTok">Astroturismo en TikTok
         </a>
-        <a href="https://infobservador.blogspot.com" class="link">
+        <a href="http://www.infobservador.blogspot.com" class="link">
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Blogger_logo.svg" alt="Blog">Artículos completos sobre Astronomía
         </a>
-        <a href="https://www.astroturismo.com.ar" class="link">
+        <a href="http://www.astroturismo.com.ar" class="link">
             <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/Globe_icon.svg" alt="Sitio Web">Cursos de Astroturismo y Astronomía
         </a>
         <a href="https://infobservador.blogspot.com/2024/07/los-libros-astronomia-binocular-y.html" class="link">
