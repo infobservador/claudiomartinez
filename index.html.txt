@@ -67,7 +67,7 @@
 <body>
     <div class="container">
         <!-- Asegúrate de que la URL de tu imagen sea accesible -->
-        <img src="https://via.placeholder.com/150" alt="Tu foto de perfil" class="profile-image">
+        <img src="https://www.facebook.com/photo.php?fbid=2179005052168271&set=t.100001763911958&type=3/150" alt="Tu foto de perfil" class="profile-image">
         <h1>Claudio Martínez - Astroturismo</h1>
         <p>Encuentra todos mis enlaces aquí:</p>
 
